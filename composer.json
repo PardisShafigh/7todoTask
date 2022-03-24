@@ -1,0 +1,21 @@
+{
+    "name": "pardis/7todo",
+    "description": "A Simple Todo List Project(With Ajax,Php and mysql)",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pardis\\7todo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PardisShafigh",
+            "email": "pardisshafigh@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "hekmatinasser/verta": "^2.1"
+    }
+}
