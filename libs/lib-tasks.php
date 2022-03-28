@@ -55,7 +55,7 @@ function doneSwitch($task_id)
 function deleteFolder($folder_id){
     global $pdo;
     $sql = "delete from folders where id=$folder_id";
-    $stmt = $pdo->query($sql);
+    $stmt = $pdo->prepare($sql);
     $stmt->execute();
     return $stmt->rowcount(); 
 }
